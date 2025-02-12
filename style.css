@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    padding: 100px 0;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
